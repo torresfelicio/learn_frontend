@@ -1,0 +1,132 @@
+html {
+    font-family: cursive;
+    text-align: center;
+    background-color: #3ffa87;
+    padding:10px;
+  }
+  
+  body {
+    background-color: rgb(179, 7, 247);
+    padding:0;
+    margin:0;
+  }
+  /*Navigation*/
+  #navbar{
+    position:fixed;
+    right:0;
+    width:50%;
+    overflow:hidden;
+  }
+  
+  #navbar ul{
+    list-style:none;
+    height:2em;
+    margin:0;
+  }
+  
+  #navbar li{
+    float:left;
+    display:inline;
+    text-align:right;
+    padding:0.5em;
+    
+  }
+  
+  a{
+    color:#000;
+    text-decoration:none;
+    font-size:1.2em;
+  }
+  a:hover li{
+    text-decoration: underline;
+    color:blue;
+    font-weight:bold;
+  }
+  
+  /*Content*/
+  #welcome-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#63e695;
+    height: 100vh;
+  }
+  
+  #projects{
+    margin-top: 25px;
+    padding: 15px;
+    text-align: center;
+  }
+  .project{
+    display: inline-block;
+    overflow: hidden;
+    background-color: #3ffa87;
+    border: 3px solid #3ffa87;
+    height: 250px;
+    width: auto;
+    margin: 1em;
+    padding-bottom: 1em;
+  }
+  .project img{
+    max-height: 200px;
+    width: auto;
+  }
+  
+  /*Social Media*/
+  .fa {
+    padding: 10px;
+    font-size: 1em;
+    width: 150px;;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 2px;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-free-code-camp{
+    background: #006400;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-github{
+    background: #fff;
+    color: #000;
+  }
+  
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+  
+  footer {
+    background-color: rgb(170, 69, 209); 
+    margin: 10px;
+  }
+  
+  /*Media Queries*/
+  @media(max-width:600px){
+    #navbar
+    #navbar ul
+    #navbar li
+    #welcome_section
+    #projects_section
+    .project
+    .project img
+    {
+      float:none;
+      text-align:center;
+      width:100%;
+    }
+  }
