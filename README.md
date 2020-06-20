@@ -20,16 +20,38 @@
   <img alt="CSS" src="https://img.shields.io/badge/css-done-blue">
 </p>
 
-## Conteúdo aprendido
 
-- Basic HTML and HTML5 (Ok)
-- Basic CSS (Ok)
-- Applied Visual Design (Ok)
-- Applied Accessibility (Ok)
-- Responsive Web Design Principles (Ok)
-- CSS Flexbox (Ok)
-- CSS Grid (Ok)
-- Responsive Weg Design (Ok)
-  
+<h1 align="center">
+  Conteúdo aprendido
+</h1>
+
+<p align="center">
+  - Basic HTML and HTML5 <img alt="Done" src="./assets/done.png" width="15px">
+</p>
+<p align="center">
+  - Basic CSS <img alt="Done" src="./assets/done.png" width="15px">
+</p>
+<p align="center">
+  - Applied Visual Design <img alt="Done" src="./assets/done.png" width="15px">
+</p>
+<p align="center">
+  - Applied Accessibility <img alt="Done" src="./assets/done.png" width="15px">
+</p>
+<p align="center">
+  - Responsive Web Design Principles <img alt="Done" src="./assets/done.png" width="15px">
+</p>
+<p align="center">
+  - CSS Flexbox <img alt="Done" src="./assets/done.png" width="15px">
+</p>
+<p align="center">
+  - CSS Grid <img alt="Done" src="./assets/done.png" width="15px">
+</p>
+<p align="center">
+  - Responsive Weg Design  <img alt="Done" src="./assets/done.png" width="15px">
+</p>
+<p align="center">
+  - Javascript (loading) <img alt="Done" src="./assets/loading.png" width="15px">
+</p>
+
 
 Feito com ♥ Lucas Torres :wave: [Entre em contato!](https://www.linkedin.com/in/torresfelicio/)
