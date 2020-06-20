@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  Digite sua idade:
+  <input id="idade" type="text">
+  <button onclick="entrar()">Entrar</button>
+  <script type="text/javascript">
+    function entrar() {
+      var idade = parseInt(document.getElementById("idade").value);     
+        if (idade >= 18) {
+          alert("Você pode entrar no Site");
+        } else {
+          alert("Você é de menor e não pode entrar no site!!!");
+        } 
+    }
+  </script>
+</head>
+<body>
+  
+</body>
+</html>

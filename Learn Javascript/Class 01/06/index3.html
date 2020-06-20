@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Curso JavaScript Progressivo</title>
+   Qual sua idade: 
+   <input id="idade" type="number">
+   <button onclick="aposentar()">Ok</button> <br />
+
+   <script type="text/javascript">
+    function aposentar(){
+     var idade = parseInt(document.getElementById("idade").value);
+
+     if (idade >= 65)
+      alert("Parabens, voce ja pode se aposentar !");
+     else 
+      alert("Ainda falta " + (65-idade) +" ano(s) para se aposentar");
+    }
+    
+   </script>
+
+ </head>
+</html>
