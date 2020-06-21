@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Curso JavaScript Progressivo</title>
+   Sua idade  : <input id="age" type="number"><br />
+   Seu salario:<input id="salary" type="number"><br />
+   <button onclick="checar()">Checar</button>
+
+   <script type="text/javascript">
+    function checar(){
+     var idade = parseInt(document.getElementById("age").value);
+     var salario = parseFloat(document.getElementById("salary").value);
+     
+     if (idade>17 && salario>2000)
+      alert("Voce esta apto para participar do consorcio");
+     else
+      alert("Voce NAO esta apto para participar do consorcio");
+    }
+ </script>
+
+ </head>
+</html>

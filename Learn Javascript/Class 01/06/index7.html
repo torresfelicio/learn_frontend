@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Curso JavaScript Progressivo</title>
+   Voce e:<br />
+   1. Gestante<br />
+   2. Idoso(a)<br />
+   3. Dificiente<br />
+   4. Nenhuma das opcoes acima<br />
+
+   <input id="option" type="number"> <br />
+   <button onclick="verificar()">Verificar</button>
+
+   <script type="text/javascript">
+    function verificar(){
+     var op = parseInt(document.getElementById("option").value);
+
+     if( (op == 1) || (op == 2) || (op == 3) )
+          alert("Voce tem direito a fila preferencial");
+     else     
+          alert("Voce NAO tem direito a fila preferencial");
+    }
+   </script>
+
+ </head>
+</html>

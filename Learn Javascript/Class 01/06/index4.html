@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Curso JavaScript Progressivo</title>
+   Primeiro numero: <input id="num1" type="number"> <br />
+   Segundo numero :<input id="num2" type="number"> <br />
+   <button onclick="maior()">Maior</button>
+
+   <script type="text/javascript">
+    function maior(){
+     var numero1 = parseFloat(document.getElementById("num1").value);
+     var numero2 = parseFloat(document.getElementById("num2").value);
+     
+     if (numero1 > numero2)
+         alert(numero1 + " eh maior que " + numero2);
+     else
+         if(numero2 > numero1)
+            alert(numero2 + " eh maior que " + numero1);
+         else
+            alert(numero1 + " eh igual a " + numero2);
+    }
+ </script>
+
+ </head>
+</html>
