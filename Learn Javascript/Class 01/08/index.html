@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Apostila JavaScript Progressivo</title>
+   <script type="text/javascript" src="script.js"> </script>
+ </head>
+ <body>
+    <button onclick="somar()">Somar</button><br />
+ </body>
+</html>
+
+function somar(){
+  var soma=0;
+  var count;
+  for(count=1 ; count <= 1000 ; count++)
+   soma = soma + count;
+ 
+  document.write("Soma: "+soma);
+}
