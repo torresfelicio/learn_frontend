@@ -7,9 +7,7 @@
 <h1 align="center">
   Learn frontend com Freecodecamp 
 </h1>
-<h2 align="center">
-  Responsive web desing certification ( 300 hours )
-</h2>
+
 
 
 <p align="center">
@@ -25,31 +23,31 @@
   Conteúdo aprendido
 </h1>
 
-<p align="center">
+<p>
   - Basic HTML and HTML5 <img alt="Done" src="./assets/done.png" width="15px">
 </p>
-<p align="center">
+<p>
   - Basic CSS <img alt="Done" src="./assets/done.png" width="15px">
 </p>
-<p align="center">
+<p>
   - Applied Visual Design <img alt="Done" src="./assets/done.png" width="15px">
 </p>
-<p align="center">
+<p>
   - Applied Accessibility <img alt="Done" src="./assets/done.png" width="15px">
 </p>
-<p align="center">
+<p>
   - Responsive Web Design Principles <img alt="Done" src="./assets/done.png" width="15px">
 </p>
-<p align="center">
+<p>
   - CSS Flexbox <img alt="Done" src="./assets/done.png" width="15px">
 </p>
-<p align="center">
+<p>
   - CSS Grid <img alt="Done" src="./assets/done.png" width="15px">
 </p>
-<p align="center">
+<p>
   - Responsive Weg Design  <img alt="Done" src="./assets/done.png" width="15px">
 </p>
-<p align="center">
+<p>
   - Javascript (loading) <img alt="Done" src="./assets/loading.png" width="15px">
 </p>
 
