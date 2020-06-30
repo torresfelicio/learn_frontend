@@ -30,7 +30,6 @@ main {
   background-color: bisque;
   padding: 15px;
   margin-top: 15px;
-  display: flex;
 }
 
 .content-header {
