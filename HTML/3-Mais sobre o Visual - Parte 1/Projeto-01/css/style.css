@@ -9,6 +9,7 @@ body {
   height: 500px;
   background-position: right center;
   background-size: cover;
+  border-top: 1px solid transparent;
 }
 
 .div-titulo {
@@ -22,6 +23,35 @@ body {
   text-shadow: 3px 3px 2px #333;
 }
 
+.div-titulo p {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  padding: 15px;
+  border-bottom: solid white;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul {
+  text-align: right;
+  margin: 40px 25px 0 0;
+}
+
+nav ul li a {
+  background-color: rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: #ccc;
+  padding: 15px;
+  border: 1px solid;
+}
+
+nav ul li a:hover{
+  opacity: 0.5;
+}
+
 main {
   width: 80%;
   margin: auto;
@@ -30,6 +60,7 @@ main {
   background-color: bisque;
   padding: 15px;
   margin-top: 15px;
+  overflow: auto;
 }
 
 .content-header {
@@ -41,6 +72,30 @@ main {
 
 .content h2 {
   margin: 0;
+}
+
+
+.card{
+  float: left;
+  width: 32%;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+}
+
+.card-1, .card-2 {
+  margin-right: 2%;
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.card p {
+  background-color: rgba(0, 0, 0);
+  color: #ccc;
+  margin: 0;
+  padding: 15px;
 }
 
 footer {
