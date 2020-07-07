@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 :root {
   --color-primary: gold;
 }
@@ -10,6 +12,7 @@
 body {
   background: #3c0bad;
   color:#fff;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -28,7 +31,6 @@ header {
   font-size: 18px;
   line-height: 28px;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
 }
 
 #footer a {
