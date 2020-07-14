@@ -15,10 +15,13 @@
   <h1>Estudos DOM</h1>
   <p>Aprendendo a usar o <strong>DOM</strong> no HTML</p>
   <p>Aqui vai o resultado</p>
-  <div>Clique em mim</div>
+  <div class="click">Clique em mim</div>
   <script>
-    var p1 = document.getElementsByTagName('p')[0]
-    
+    var p1 = document.querySelector('div.click')
+    p1.style.background = 'grey'
+    p1.style.color = 'red'
+    p1.style.padding = '50px'
+    p1.innerHTML = 'Clicado'
   </script>
 </body>
 </html>

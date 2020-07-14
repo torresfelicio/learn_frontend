@@ -3,22 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Eventos DOM</title>
   <style>
     body {
       background-color: black;
       color: blanchedalmond;
     }
+    #area {
+      background-color: brown;
+      color: cornsilk;
+      width: 200px;
+      height: 200px;
+      line-height: 200px;
+      text-align: center;
+      font-weight: 900;
+    }
   </style>
 </head>
 <body>
-  <h1>Estudos DOM</h1>
-  <p>Aprendendo a usar o <strong>DOM</strong> no HTML</p>
-  <p>Aqui vai o resultado</p>
-  <div>Clique em mim</div>
-  <input class="nome" type="text">
+  <div id="area">
+    DIV
+  </div>
   <script>
-    var nome = 
+
+    a = document.querySelector('div#area')
+    a.addEventListener('click', clicar)
+    a.addEventListener('mouseenter', entrar)
+    a.addEventListener('mouseout', saiu)
+
+    function clicar() {
+      document.querySelector('div#area').
+      innerHTML = 'Clicado';
+    }
+    function entrar() {
+      document.querySelector('div#area').
+      innerHTML = 'Entrou';
+    }
+    function saiu() {
+      document.querySelector('div#area').
+      innerHTML = 'Saiu'
+    }
+    
   </script>
 </body>
 </html>
